@@ -1,0 +1,11 @@
+# Lightweight core dependencies (no ML runtimes). Install the package itself with:  pip install -e .
+numpy>=1.24
+opencv-python>=4.8
+mediapipe>=0.10
+pyautogui>=0.9.54
+
+# Optional (see pyproject.toml extras):
+#   pip install -e ".[ai]"      -> onnxruntime, websockets
+#   pip install -e ".[train]"   -> scikit-learn, skl2onnx, onnxruntime (open-ai-hci train)
+#   pip install -e ".[voice]"   -> faster-whisper, sounddevice
+#   pip install -e ".[dev]"     -> test and lint tooling
